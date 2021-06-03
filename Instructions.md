@@ -140,69 +140,65 @@ toward completing the project.
 The project will be evaluated according to the following marking scheme based on the following ten
 components:
 
-1. Description of data source/problem:
-  Does the report explain what is the problem to be solved and the data
-  used? Does it identify the source of the data?
+1. *Description of project topic and software used*  Does the report explain (broadly) what the scientific problem is being solved. Is the software chosen for the project well described? Is sufficient background information presented so that the reader can understand the context of the rest of the report? 
 
-2. Description of analysis workflow
-  Does the report explain the approach used in solving the problem? Does
-  the report make a cited reference to the software package or algorithm
-  being used? Is it clear what functionality or library function calls of the
-  third-party software is being used?
+2. *Description of computational tasks and workflow*  Does the report explain the approach used in solving the problem? Does
+  the report make a cited reference to the software package and/or algorithm
+  being used? Is it clear what functionality or library function calls of the third-party software is being used?
 
-3. Use of third-party Python package
+3. *Computational tasks*
   When considering the Python code in the scripts of the project, the
   third-party software package being called correctly? When compared
   against the documentation for the software, does it appear that software is
   being used correctly? The code that calls the third-party software package
   readable and understandable?
 
-4. Use of git and GitHub
+4. *Use of git and GitHub*
   Has the project been submitted using GitHub? Does the git commit log
   show several separate commits? Are the commit
   messages meaningful?
 
-5. Makefile and reproducibility
+5. *Makefile and reproducibility*
   When the instructions in the `Readme.md` are correctly followed, does
   running make reproduce the entire workflow? This can also be tested by
   deleting one of the intermediate files (targets) as given in the Makefile and
   confirming that the processing and plotting still work.
 
-6. Creation of LaTeX report
+6. *Creation of LaTeX report*
   Is the report a LaTeX document showing use of \\section, \\maketitle, and
-  \\includegraphics ? Does running either pdflatex or latexmk regenerate a
+  \\includegraphics ? Does running either `pdflatex` or `latexmk` regenerate a
   PDF version of the report without errors?
 
-7. Matplotlib based visualization (1)
-  Does the plot have reasonable styling options (e.g. axis labels, legends,
+7. *Matplotlib based visualizations*
+  Do the figures have reasonable styling options (e.g. axis labels, legends,
   colorbar) applied? Does the matplotlib code that generates and saves the
-  figure in a file work correctly? Does the plot make sense in the context of
+  figure to a file work correctly? Do the plots make sense in the context of
   the report?
 
-8. Visualization or data product (2)
-  Does the visualization make sense in the context of the report? This
-  second visualization could be a matplotlib figure, a map, a table, or any
-  other type of data project that is appropriate to the context of the report.
+8. *Scope and effort*
+  Are there at least two computational task included? Are there at least two
+  visualizations included in the work flow? Do the computational tasks
+  and visualizations attempted (as seen in the either the report or the git
+  history) demonstrate engagement with the project topic at a level consitent
+  with a graduate course?
 
-9. Peer evaluation
+9. *Peer evaluation*
   Thinking about the previous eight evaluation components, how would you
   rate the overall execution of this project? Were you able to reproduce the
-  workflow? Was the code readable and understandable? Did the report try
-  and use the third-party package in an interesting or novel way? How does
+  workflow? Was the code readable and understandable? How does
   this project compare to others you evaluate in your peer group?
 
-10. Originality and novelty
+10. *Originality and mastery*
   Does the project go beyond a simple reproduction of the third-party
-  software package’s documentation or examples? Does the code and
-  project make use of the other concepts we have learned about in
+  software package’s documentation or examples? Does the submitted code and
+  project make use of the other concepts learned about in
   CMSC6950 (bash scripting, python data structures and functions, numpy,
-  matplotlib, and pandas)? Is the input data data set chosen novel or has
-  the third-party package been applied creatively?
+  matplotlib, and pandas)? Have the chosen computatational tasks using the third-party package been applied creatively?
 
 Each component is worth 10 points (project total, 100 points). Rubric for each
 component:
 
-- 0 - Component not attempted or submitted in any way
+- 0 - Component not attempted or submitted
 - 3-4 - Only a preliminary and incomplete attempt at satisfying component requirements.
 - 5-6 - Partial completion of component showing an attempt that demonstrates some
 knowledge of topics covered in CMSC6950
