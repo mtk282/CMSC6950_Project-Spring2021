@@ -19,16 +19,58 @@ and you want to try and reproduce some of their work. Fortunately, they have rel
 their software as open-source and published it in the
 [Journal of Open Source Software (JOSS)](https://joss.theoj.org/)
 
-Choose a *Project Topic* from the list of JOSS papers [here](Topics.md) 
+**STEP 1** Choose a *Project Topic* from the list of JOSS papers [here](Topics.md). 
+It is not necessary that you have any prior expertise in the area. Choose any of the topics
+that looks interesting to you.  Start by reviewing the JOSS paper, the GitHub repository
+for the software, and the documentation (often made available on a [Read the Docs](https://readthedocs.org/)
+site). You may need to look at several different topics before finalizing you decision.
 
-You have 
-Suppose that you are trying to solve some problem and you are writing a report that describes 
-the solution to that problem. Imagine that you have chosen to use a
-third-party Python software package to help solve the problem. In this project, you will
-use that software package to solve your problem and describe the results in a LaTeX
-based report along with a minimum of two visualizations and/or tables (at least one of
-which needs to be completed with matplotlib).
+In this project, your task is to reproduce at least *two* "computational tasks" based on the 
+chosen project topic
+and produce at least *two* "visualizations" (using Matplotlib) that show the results of 
+the computation. You also need to create a LaTeX based report that describes the software
+you are using, the science problem it address (a very high-level description is acceptable),
+describes the "computational tasks" you have performed, and includes the visualizations in the body
+of the report.  Your report must have a bibliography (although may only need a single JOSS reference!)
 
+**STEP 2** Create a new, *public* GitHub repo for this project called `<GitHubID>/CMSC6950_Project`.  
+Regularly commit (with useful commit messages) changes you make related to this project.  Set up, install, and/or configure your
+chosen project topic to be able to run on your system. Create a `README.md` that explains precisely
+what is required to get the project software to run. If appropriate, create a new `conda` environment
+install any software dependencies. Verify that your instructions are sufficient to run this software the
+server `cmsc6950.munroelab.ca`.
+
+What constitutes a "computational task" will differ between the different project topics. For
+these topics, it will involve performing a calculation, running a model, or extracting data
+from an online source.  In any case, implement your project so that this task saves any output 
+to an intermediate file.  Make the assumption that the "computation" is non-trivial
+and you want to be able to examine the results without having to rerun the task.  Each visualization
+(Matplotlib based) should be implemented as Python script that loads in this
+intermediate file. Use command line arguments to pass around the filenames for both the intermediate
+data and the final image output file.  
+
+**STEP 3** Work through the examples in the documentation or tutorial for the project topic to identify
+at least two different computational tasks to perform. While the example may be available as a Jupyter
+Notebook, your implementation should be a Python script that is run at the command line. You may choose
+to do two distinct computational tasks, or the same computational twice using different parameters, 
+configurations, or input data. If run-time parameters need to be passed into your Python script use
+command line arguments.  If you want, you may come up with your own computational task using the project
+topic software but reproducing a documented example is sufficient for this project.
+
+You may need to work through several examples before settling on computational
+tasks that are appropriate for the project. Remember to use git and commit your Python scripts often
+during this development and exploration phase of the project. If you find you are hitting a critical
+road block and need to choose a different project topic, you are permitted to go back to Step 1 and 
+choose a different topic. However, please continue to use the same git repository throughout this
+project even if you choose to switch topics. A record of attempts that did not lead to success is
+an important part of science!
+
+**STEP 4** Develop at least two visualizations using Matplotlib showing either the output for your computational
+task.  Using Jupyter may be a useful tool as you work on your visualization (remember to use git to commit
+your notebook to your repository) but, eventually, you will need command line based Python script that 
+produces the visualizaiton.  
+
+, In this project, you must use a *Makefile* to control the overall 
 
 The report is supposed to be about the solution to the imaginary problem, but some
 students in the class have interpreted the project as being about a Python software
