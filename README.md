@@ -6,4 +6,6 @@ Spring 2021
 
 [List of project topics](Topics.md)
 
+[List of projects](Projects.md)
+
 Your project should be available as a *public* GitHub repo named `<GitHubId>/CMSC6950_Project`.
