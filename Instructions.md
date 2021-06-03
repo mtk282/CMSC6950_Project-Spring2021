@@ -140,14 +140,16 @@ toward completing the project.
 The project will be evaluated according to the following marking scheme based on the following ten
 components:
 
-1. *Description of project topic and software used*  Does the report explain (broadly) what the scientific problem is being solved. Is the software chosen for the project well described? Is sufficient background information presented so that the reader can understand the context of the rest of the report? 
+1. **Description of project topic and software used**  
+Does the report explain (broadly) what the scientific problem is being solved. Is the software chosen for the project well described? Is sufficient background information presented so that the reader can understand the context of the rest of the report? 
 
-2. *Description of computational tasks and workflow*  Does the report explain the approach used in solving the problem? Does
+2. **Description of computational tasks and workflow**
+Does the report explain the approach used in solving the problem? Does
   the report make a cited reference to the software package and/or algorithm
   being used? Is it clear what functionality or library function calls of the third-party software is being used?
 
-3. *Computational tasks*
-  When considering the Python code in the scripts of the project, the
+3. **Computational tasks**
+When considering the Python code in the scripts of the project, the
   third-party software package being called correctly? When compared
   against the documentation for the software, does it appear that software is
   being used correctly? The code that calls the third-party software package
