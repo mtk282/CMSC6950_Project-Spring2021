@@ -141,13 +141,13 @@ The project will be evaluated according to the following marking scheme based on
 components:
 
 1. **Description of project topic and software used**  
-Does the report explain (broadly) what the scientific problem is being solved. Is the software 
+Does the report explain (broadly) what the scientific problem is being solved? Is the software 
 chosen for the project well described? Is sufficient background information presented so that 
 the reader can understand the context of the rest of the report?
 
 2. **Description of computational tasks and workflow**  
 Does the report explain the approach used in solving the problem? Does the report make a cited
-reference to the software package and/or algorithm being used? Is it clear what functionality 
+reference (with bibliography) to the software package being used? Is it clear what functionality 
 or library function calls of the third-party software is being used? 
 
 3. **Computational tasks**  
@@ -157,7 +157,7 @@ is being used correctly? The code that calls the third-party software package re
 
 4. **Use of git and GitHub**  
 Has the project been submitted using GitHub? Does the git commit log show several separate commits? 
-Are the commit messages meaningful?
+Are the commit messages meaningful? Are unused, temporary, or old files removed from the repository?
 
 5. **Makefile and reproducibility**  
 When the instructions in the `Readme.md` are correctly followed, does running make reproduce the entire 
