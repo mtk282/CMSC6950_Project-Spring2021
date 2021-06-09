@@ -6,3 +6,4 @@ Format: `- <Name> [<Project Topic>](https://github.com/<GitHubId>/CMSC6950_Proje
 - Yashar Tavakoli [argopy](https://github.com/yashar-mun/CMSC6950_Project)
 - Lavan Thaya [argopy](https://github.com/lavanthaya/CMSC6950_Project)
 - Atiyeh Tahavorgar [tidynamics](https://github.com/Atiyeh996/CMSC6950_Project)
+- Prudhvi Kommareddi [pymagicc](https://github.com/pkommareddi/CMSC6950_Project)
