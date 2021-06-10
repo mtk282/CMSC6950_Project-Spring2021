@@ -8,3 +8,4 @@ Format: `- <Name> [<Project Topic>](https://github.com/<GitHubId>/CMSC6950_Proje
 - Atiyeh Tahavorgar [tidynamics](https://github.com/Atiyeh996/CMSC6950_Project)
 - Prudhvi Kommareddi [pymagicc](https://github.com/pkommareddi/CMSC6950_Project)
 - Brad McNiven [<fruitbat>] (https://github.com/bm2570/CMSC6950_Project)
+- Ruixin Song [Capytaine](https://github.com/tsuzzy/CMSC6950_Project)
