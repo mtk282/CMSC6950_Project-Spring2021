@@ -12,3 +12,4 @@ Format: `- <Name> [<Project Topic>](https://github.com/<GitHubId>/CMSC6950_Proje
 - Ruixin Song [Capytaine](https://github.com/tsuzzy/CMSC6950_Project)
 - Omid Tarkhaneh [pymagicc](https://github.com/OmidTarkhaneh/CMSC6950_Project)  
 - Vivek patel [pymagicc](https://github.com/vivek1697/CMSC6950_Project)
+- Michael King [argopy](https://github.com/mtk282/CMSC6950_Project)
